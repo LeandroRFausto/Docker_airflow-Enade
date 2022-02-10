@@ -32,6 +32,10 @@ A configuração define o Flower no http://localhost:5555/ .
 
 * No ambiente, crie uma pasta com o nome "data" e execute a DAG.
 
+<p align="center">
+<img src="https://github.com/LeandroRFausto/Docker_airflow-Enade/blob/main/GraphView_dag.png" alt="Image" height="300" width="600"/>
+</p>
+
 * O Graph View deverá demonstrar todos os trabalhos em verde. Quando o status for "success", a pasta "data" deverá conter os dados baixados e os contruidos. 
 
 * A aplicação terá: baixado, descompactado e filtrado os dados; construido os critérios de idade, cor da pele, escolaridade dos pais, estado civil, renda e juntado todos os atributos.
